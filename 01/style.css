@@ -81,6 +81,10 @@ button:focus {
   background-color: darkblue;
 }
 
+#reset {
+  border: 2px solid black;
+}
+
 #random {
   color: black;
   background-size: cover;
