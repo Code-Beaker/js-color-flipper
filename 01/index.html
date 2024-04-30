@@ -18,13 +18,48 @@
         <h3>Color Flipper</h3>
         <p>Click on the buttons below to see the magic!</p>
         <div class="button-wrapper">
-          <button onclick="setColor('green')" id="green">Green</button>
-          <button onclick="setColor('red')" id="red">Red</button>
-          <button onclick="setColor('darkblue')" id="blue">Blue</button>
+          <button
+            aria-hidden="false"
+            aria-label="Green"
+            onclick="setColor('green')"
+            id="green"
+          >
+            Green
+          </button>
+          <button
+            aria-hidden="false"
+            aria-label="Red"
+            onclick="setColor('red')"
+            id="red"
+          >
+            Red
+          </button>
+          <button
+            aria-hidden="false"
+            aria-label="Blue"
+            onclick="setColor('darkblue')"
+            id="blue"
+          >
+            Blue
+          </button>
         </div>
         <div class="button-wrapper">
-          <button id="reset" onclick="resetColor()">Reset</button>
-          <button id="random" onclick="randomColor()">Random</button>
+          <button
+            aria-label="Reset"
+            aria-hidden="false"
+            id="reset"
+            onclick="resetColor()"
+          >
+            Reset
+          </button>
+          <button
+            aria-label="Random"
+            aria-hidden="false"
+            id="random"
+            onclick="randomColor()"
+          >
+            Random
+          </button>
         </div>
       </div>
     </main>
