@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper | Javascript App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h3>Color Flipper</h3>
+        <p>Click on the buttons below to see the magic!</p>
+        <div class="button-wrapper">
+          <button onclick="setColor('green')" id="green">Green</button>
+          <button onclick="setColor('red')" id="red">Red</button>
+          <button onclick="setColor('darkblue')" id="blue">Blue</button>
+          <button id="random" onclick="randomColor()">Random</button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
