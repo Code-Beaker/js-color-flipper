@@ -4,6 +4,10 @@ function setColor(name) {
   body.style.backgroundColor = name;
 }
 
+function resetColor() {
+  body.style.backgroundColor = "#fff";
+}
+
 function randomColor() {
   const red = Math.round(Math.random() * 255);
   const green = Math.round(Math.random() * 255);

@@ -44,6 +44,7 @@ button {
   border-radius: 100vw;
   display: block;
   border: none;
+  max-width: 100%;
   font-size: 1.075rem;
   font-weight: 700;
   text-transform: uppercase;
