@@ -21,7 +21,7 @@ I was surprised myself about how things could be done using Javascript.
 
 I never actually thought about using the `Math` function for this kind of purpose. This has tought me a lot!
 
-![Screenshot](./screenshot)
+![Screenshot](./01/screenshot)
 
 ## URLs
 
