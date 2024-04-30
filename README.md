@@ -17,7 +17,7 @@ This time, I had a lot of fun building this one out. Since I'm a bit experienced
 
 I was surprised myself about how things could be done using Javascript.
 
-**Especially this block of code to generate a random number:**
+**Especially this block of code to generate a random color:**
 
 I never actually thought about using the `Math` function for this kind of purpose. This has tought me a lot!
 
